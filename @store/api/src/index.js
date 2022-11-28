@@ -1,7 +1,6 @@
 import { connect } from 'mongoose';
 import { app } from './app';
-import {} from 'dotenv/config';
-
+import "dotenv/config.js";
 
 const port = process.env.PORT;
 const db = process.env.DB; 

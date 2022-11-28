@@ -7,4 +7,4 @@ export const privat = Router();
 
 privat.use('/new',nvo);
 privat.use('/update',upd);
-prviate.use('/delete',del);
+privat.use('/delete',del);
