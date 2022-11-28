@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev:api": "npm run dev -w @store/api"
+    "dev:api": "npm run dev -w @store/api",
+    "dev": "concurrently npm:dev:*"
   },
   "keywords": [],
   "author": "",
@@ -20,5 +21,8 @@
     "mongoose": "^6.7.3",
     "morgan": "^1.10.0",
     "ws": "^8.11.0"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
   }
 }
